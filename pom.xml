@@ -19,8 +19,6 @@
 			<artifactId>scala-library</artifactId>
 			<version>2.10.3</version>
 		</dependency>
-		<!-- <dependency> <groupId>org.scala-lang</groupId> <artifactId>scala-parser-combinators</artifactId> 
-			<version>2.11.0-M4</version> </dependency> -->
 		<dependency>
 			<groupId>com.typesafe.play</groupId>
 			<artifactId>play-json_2.10</artifactId>
@@ -62,8 +60,6 @@
 			<artifactId>spring-context</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		<!-- <dependency> <groupId>org.codehaus.jackson</groupId> <artifactId>jackson-mapper-asl</artifactId> 
-			<version>1.9.12</version> </dependency> -->
 
 		<dependency>
 			<groupId>org.hamcrest</groupId>
@@ -107,8 +103,6 @@
 		</pluginManagement>
 
 
-		<sourceDirectory>src</sourceDirectory>
-		<finalName>dmk-scala-json</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
